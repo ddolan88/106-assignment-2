@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/background-image);
+}
+
+.main-content{
+    display: flex;
+    
+}
+
+.project-title{
+    color: white;
+    background-color: black;
+    padding-bottom: 15px;
+}
+
+.list{
+    flex: 3;
+}
+
+.form{
+    flex: 2;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+
+#iImportant{
+    font-size: 25px;
+    cursor: pointer;
+    color: grey;
+}
+
+#iImportant.fas{
+    font-size: 25px;
+    cursor: pointer;
+    color: red;
+}
+
